@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+header {
+    background:rgb(49, 46, 46);
+    height: 35px;
+
+}
+
+header nav {
+    display: flex;
+    position: relative;
+}
+
+.nav-2{
+    display: flex ;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(249, 250, 249);
+    margin: 20px;
+    text-decoration: none;
+}
+.navbar{
+    height: 60px;
+    
+}
+
+.main{
+    display: flex;
+    text-align:justify;
+    padding: 0px;
+}
+
+.left{
+    background: #e6dede;
+    width: 250px; 
+    overflow: hidden;
+    overflow: scroll;
+    max-height: 750px;
+}
+
+.lefty{
+
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.left-ul{
+    padding: 15px;
+}
+
+
+.lefty a{
+    color: rgb(44, 40, 40);
+    text-decoration: none;
+
+}
+.right{
+    background: rgb(246, 249, 246);
+    
+}
+
+.btn{
+    border-radius: 20px;
+}
+.head1{
+    display:flex;
+    
+}
+.right{
+    width: 100%;
+}
+.certify{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+.start-today{
+    background: pink;
+    border-radius: 30px;
+    border: 1px solid pink;
+    width: 10vw;
+    height: 60px;
+    font-size: 22px;
+    margin-bottom:50px ;
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+.head1 img{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.butn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.butn button
+{
+    width: 100px;
+    height: 50px;
+    font-size:20px ;
+    border-radius: 5px; 
+    border: 1px solid green;
+    background: green;
+    color: white;
+}
+h3{
+    margin-top: 30px;
+
+}
+.conti{
+    background: rgb(188, 237, 225);
+    margin:22px;
+    padding: 10px;
+}
+.study{
+    color: white;
+    width:300px;
+    height: 40px;
+    background: green;
+    margin:30px 30px 10px 30px;
+    border-radius: 5px;
+}
+.video{
+    color: white;
+    width:250px;
+    height: 40px;
+    background: rgb(39, 45, 39);
+    margin:10px 30px;
+    border-radius: 5px;
+}
